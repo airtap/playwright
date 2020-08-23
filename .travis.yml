@@ -1,4 +1,6 @@
 language: node_js
+
+# Required to run firefox
 dist: bionic
 
 node_js:
@@ -17,22 +19,21 @@ addons:
     # Required to run chromium
     - libgbm1
     # Required to run webkit
-    # TODO: some of these are not available
-    # - libwoff1
-    # - libopus0
-    # - libwebp6
-    # - libwebpdemux2
-    # - libenchant1c2a
-    # - libgudev-1.0-0
-    # - libsecret-1-0
-    # - libhyphen0
-    # - libgdk-pixbuf2.0-0
-    # - libegl1
-    # - libgles2
-    # - libevent-2.1-6
-    # - libnotify4
-    # - libxslt1.1
-    # - libvpx5
+    - libwoff1
+    - libopus0
+    - libwebp6
+    - libwebpdemux2
+    - libenchant1c2a
+    - libgudev-1.0-0
+    - libsecret-1-0
+    - libhyphen0
+    - libgdk-pixbuf2.0-0
+    - libegl1
+    - libgles2
+    - libevent-2.1-6
+    - libnotify4
+    - libxslt1.1
+    - libvpx5
 
 notifications:
   email: false

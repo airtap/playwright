@@ -34,6 +34,10 @@ addons:
     - libnotify4
     - libxslt1.1
     - libvpx5
+    - gstreamer1.0-gl
+    - gstreamer1.0-plugins-base
+    - gstreamer1.0-plugins-good
+    - gstreamer1.0-plugins-bad
 
 notifications:
   email: false

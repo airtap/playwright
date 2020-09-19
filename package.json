@@ -15,7 +15,9 @@
   ],
   "dependencies": {
     "abstract-browser": "^1.0.0",
-    "browser-provider": "^1.1.0",
+    "browser-provider": "^1.1.0"
+  },
+  "optionalDependencies": {
     "playwright": "^1.3.0"
   },
   "devDependencies": {

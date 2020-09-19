@@ -19,7 +19,7 @@
     "playwright": "^1.3.0"
   },
   "devDependencies": {
-    "airtap": "github:airtap/airtap#d8da4f6",
+    "airtap": "^4.0.0",
     "cross-env": "^7.0.2",
     "depcheck": "^1.2.0",
     "hallmark": "^3.0.0",

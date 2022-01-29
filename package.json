@@ -5,10 +5,7 @@
   "license": "MIT",
   "author": "Vincent Weevers",
   "scripts": {
-    "test": "standard && hallmark && depcheck && npm run test:unit",
-    "test:unit": "cross-env DEBUG=airtap* nyc node test",
-    "fix:js": "standard --fix",
-    "fix:md": "hallmark --fix"
+    "test": "standard && hallmark && cross-env DEBUG=airtap* nyc node test"
   },
   "files": [
     "index.js"
@@ -23,7 +20,6 @@
   "devDependencies": {
     "airtap": "^4.0.0",
     "cross-env": "^7.0.2",
-    "depcheck": "^1.2.0",
     "hallmark": "^4.0.0",
     "nyc": "^15.1.0",
     "standard": "^14.3.4",

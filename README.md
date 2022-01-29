@@ -4,8 +4,8 @@
 
 [![npm status](http://img.shields.io/npm/v/airtap-playwright.svg)](https://www.npmjs.org/package/airtap-playwright)
 [![node](https://img.shields.io/node/v/airtap-playwright.svg)](https://www.npmjs.org/package/airtap-playwright)
-[![Travis build status](https://img.shields.io/travis/com/airtap/playwright.svg?label=travis)](http://travis-ci.com/airtap/playwright)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Test](https://img.shields.io/github/workflow/status/airtap/playwright/Test?label=test)](https://github.com/airtap/playwright/actions/workflows/test.yml)
+[![Standard](https://img.shields.io/badge/standard-informational?logo=javascript\&logoColor=fff)](https://standardjs.com)
 
 ## Table of Contents
 
